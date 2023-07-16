@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react'
 import './App.css'
+import DrumMachine from './DrumMachine'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>hello there</h1>
-    </>
+      <h1>LANY</h1>
+      <h2>Drum App</h2>
+      <DrumMachine />
+    </>  
   )
 }
 

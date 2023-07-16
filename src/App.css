@@ -1,0 +1,70 @@
+h1 {
+  font-family: 'Rowdies', cursive;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+color: whitesmoke;
+text-shadow: 1px tomato;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}
+
+
+.drum-pad, #display{
+  border: 1px solid black;
+  text-align: center;
+  min-height: 1.5rem;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  border: 5px solid rgb(42, 21, 10);
+  width: 400px;
+  margin: auto auto;
+  padding: 20px;
+  background-color: rgba(228, 68, 10, 0.5);
+  color: white;
+  font-size: 20px;
+}
+
+.pad-section {
+  display: flex;
+  /* border:  1px green solid; */
+}
+
+.drum-pad {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50px; */
+  flex-basis: 50px;
+  height: 50px;
+}
+
+
+body {
+  background-image: linear-gradient(to top left, rgba(0,0,0,.8), rgb(200,200,200,80%)), url("./assets/lany-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(to top left, rgba(0,0,0,.8), rgb(200,200,200,80%)), url("./assets/lany-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
